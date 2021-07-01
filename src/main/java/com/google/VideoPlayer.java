@@ -144,11 +144,7 @@ public class VideoPlayer {
   public void searchVideosWithTag(String videoTag) {
 
 
-  Map<String, String> flags = new HashMap<>();
 
-  public void flagVideo(String videoId) {
-    flagVideo(videoId, "Not supplied");
-  }
 
   public void flagVideo(String videoId, String reason) {
 
